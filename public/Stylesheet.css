@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* your styling */
+
+.menu {
+    padding: 10px 0px 20px 0px;    
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+    padding-right: 10px;
+}
+
+#list li{
+    margin-left: 20px;
+}
+
+ul .list {
+    margin: 90px;
+}
+
+.element
+{
+  width: 33%;
+  margin: 90px auto;
+}
+
+.media
+{
+
+  padding: 20px  0px 20px 0px ;
+  width: 100%;
+  height: auto;
+}
+
+iframe
+{
+  padding: 20px
+}
+
+h2
+{
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+h4
+{
+    line-height: 2px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+@media (max-device-width: 800px) {
+        body {
+            font-size: 30px;
+        }
+        .element
+        {
+          width: 80%;
+          margin: 90px auto;
+        }
+    }

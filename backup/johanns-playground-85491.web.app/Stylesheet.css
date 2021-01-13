@@ -1,0 +1,40 @@
+.element
+{
+  width: 33%;
+  margin: 90px auto;
+}
+
+.media
+{
+
+  padding: 20px  0px 20px 0px ;
+  width: 100%;
+  height: auto;
+}
+
+iframe
+{
+  padding: 20px
+}
+
+h2
+{
+    line-height: 30px;
+}
+
+h4
+{
+    line-height: 2px;
+}
+
+
+@media (max-device-width: 800px) {
+        body {
+            font-size: 30px;
+        }
+        .element
+        {
+          width: 80%;
+          margin: 90px auto;
+        }
+    }
